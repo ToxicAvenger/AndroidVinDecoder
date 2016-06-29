@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "pl.mobilnebajery.vindecoder"
+        minSdkVersion 7
+        targetSdkVersion 7
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android.captchahacker.jar')
+    compile files('libs/guice-3.0-no_aop.jar')
+    compile files('libs/javax.inject.jar')
+    compile files('libs/roboguice-2.0-RC1.jar')
+}

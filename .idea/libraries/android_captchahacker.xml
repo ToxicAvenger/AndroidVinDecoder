@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android.captchahacker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/android.captchahacker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
